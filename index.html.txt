@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Be My Valentine?</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="heart-container">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Red_Heart_Emoji.svg/1200px-Red_Heart_Emoji.svg.png" alt="Heart" class="heart">
+            </div>
+            <h1 class="message">
+                Hey [His Name],<br><br>
+                From the moment I met you, I knew there was something special between us. We've laughed, shared memories, and faced challenges, but my feelings for you have only grown stronger.<br><br>
+                This Valentine’s Day, I wanted to ask you the one question I’ve been keeping close to my heart...<br><br>
+                Would you be my Valentine? 💖
+            </h1>
+            <button class="yes-btn" onclick="sayYes()">Yes! 💘</button>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
